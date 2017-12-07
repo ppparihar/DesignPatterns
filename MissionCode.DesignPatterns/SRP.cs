@@ -42,9 +42,9 @@ namespace MissionCode.DesignPatterns.SOLID
             Process.Start(FilePath);
         }
 
-        private string FilePath => $"{RootDirectory}/record.txt";
+        private static string FilePath => $"{RootDirectory}/record.txt";
 
-        private string RootDirectory => Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
+        private static string RootDirectory => Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
     }
 
     // handles the responsibility of persisting objects
