@@ -11,8 +11,8 @@ namespace MissionCode.DesignPatterns.SOLID
         static void Main(string[] args)
         {
             var record = new Records();
-            record.add("first Item");
-            record.add("second Item");
+            record.Add("first Item");
+            record.Add("second Item");
            // record.Save();
 
           // handles the responsibility of persisting objects here
