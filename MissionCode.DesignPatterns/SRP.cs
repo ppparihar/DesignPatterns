@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace MissionCode.DesignPatterns.SOLID
 {
+    //Single Responsibility Princilple
+    //A class should only have one reason to change
     public class Records
     {
 
@@ -50,7 +52,7 @@ namespace MissionCode.DesignPatterns.SOLID
     // handles the responsibility of persisting objects
     public class Persistence
     {
-      
+
         public static void Save(Records records)
         {
             File.WriteAllText(FilePath, records.ToString());

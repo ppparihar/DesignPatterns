@@ -2,6 +2,8 @@
 
 namespace MissionCode.DesignPatterns.SOLID
 {
+    //Liskov Substition Principle
+    //You should be able to substitute a base type for a subtype
     public abstract class WidgetBase
     {
         public virtual WidgetBase[] Relatives()

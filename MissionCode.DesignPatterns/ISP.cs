@@ -2,6 +2,8 @@
 
 namespace MissionCode.DesignPatterns.SOLID
 {
+    //Interface Segregation Principle
+    //Don't put too much into an interface;split into seprate interface
     public interface IPhone
     {
         void MakeVoiceCall();

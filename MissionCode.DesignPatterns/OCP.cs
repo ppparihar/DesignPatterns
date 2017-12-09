@@ -4,6 +4,8 @@ using System.Linq;
 
 namespace MissionCode.DesignPatterns.SOLID
 {
+    //Open-Closed Principle 
+    // Classes should be open for extension but closed for modification
     public enum Color
     {
         Blue, Green, Red
