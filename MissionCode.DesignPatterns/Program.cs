@@ -11,14 +11,16 @@ namespace MissionCode.DesignPatterns.SOLID
         static void Main(string[] args)
         {
 
-            SRPExample();
-            OCPExample();
+           
+            SRP();
+            OCP();
 
+            LSP();
             ExitStatment();
 
         }
 
-        private static void SRPExample()
+        private static void SRP()
         {
             WriteHeading("SRP");
             var record = new Records();
@@ -30,9 +32,9 @@ namespace MissionCode.DesignPatterns.SOLID
             Persistence.Save(record);
         }
 
-        private static void OCPExample()
+        private static void OCP()
         {
-   
+
             WriteHeading("OCP");
             var productList = new List<Product>
             {
@@ -63,7 +65,31 @@ namespace MissionCode.DesignPatterns.SOLID
             {
                 Console.WriteLine(product);
             }
-       
+
+        }
+
+        private static void LSP()
+        {
+            WriteHeading("LSP");
+
+            WidgetBase widget = new NotLspWidget();
+            WidgetBase[] widgetRelatives = widget.Relatives();
+
+            try
+            {
+                //try to put some other WidgetBase to the array
+                widgetRelatives[0] = new LspWidget();
+            }
+            catch (ArrayTypeMismatchException)
+            {
+                Console.WriteLine("ArrayTypeMismatchException handled");
+            }
+
+            WidgetBase w = new LspWidget();
+            WidgetBase[] relatives = w.Relatives();
+
+            //try to put some other WidgetBase to the array
+            relatives[0] = new NotLspWidget();
         }
 
         static void WriteHeading(string heading)
@@ -71,7 +97,7 @@ namespace MissionCode.DesignPatterns.SOLID
             Console.WriteLine("============================================");
             Console.WriteLine(heading);
             Console.WriteLine("============================================");
-           
+
         }
 
         static void ExitStatment()
