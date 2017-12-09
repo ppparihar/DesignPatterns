@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DIP.cs" />
     <Compile Include="ISP.cs" />
     <Compile Include="LSP.cs" />
     <Compile Include="LSPTest.cs" />
