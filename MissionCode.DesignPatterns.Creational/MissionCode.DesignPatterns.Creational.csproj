@@ -51,6 +51,8 @@
     <Compile Include="FactoryTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Prototype.cs" />
+    <Compile Include="PrototypeTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
