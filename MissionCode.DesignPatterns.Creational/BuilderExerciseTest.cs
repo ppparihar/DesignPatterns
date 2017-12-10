@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MissionCode.DesignPatterns.CDP
+namespace MissionCode.DesignPatterns.Creational
 {
     [TestClass]
     public class FirstTestSuite

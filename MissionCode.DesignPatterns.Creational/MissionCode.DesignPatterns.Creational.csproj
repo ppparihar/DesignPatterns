@@ -7,8 +7,8 @@
     <ProjectGuid>{B19B067F-D616-485E-B2CF-AD8D80EDF732}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MissionCode.DesignPatterns.CDP</RootNamespace>
-    <AssemblyName>MissionCode.DesignPatterns.CDP</AssemblyName>
+    <RootNamespace>MissionCode.DesignPatterns.Creational</RootNamespace>
+    <AssemblyName>MissionCode.DesignPatterns.Creational</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="BuilderExercise.cs" />
     <Compile Include="BuilderExerciseTest.cs" />
+    <Compile Include="Factory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

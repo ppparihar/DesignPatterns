@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionCode.DesignPatterns.SOLID", "MissionCode.DesignPatterns\MissionCode.DesignPatterns.SOLID.csproj", "{16DB26AC-4DFB-469F-8022-19CA0D023F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionCode.DesignPatterns.CDP", "MissionCode.DesignPatterns.CDP\MissionCode.DesignPatterns.CDP.csproj", "{B19B067F-D616-485E-B2CF-AD8D80EDF732}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionCode.DesignPatterns.Creational", "MissionCode.DesignPatterns.Creational\MissionCode.DesignPatterns.Creational.csproj", "{B19B067F-D616-485E-B2CF-AD8D80EDF732}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
