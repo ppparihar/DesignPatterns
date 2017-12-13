@@ -1,0 +1,8 @@
+﻿Phone
+1000
+Pen
+3200
+Book
+2500
+Laptop
+400
