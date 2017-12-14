@@ -47,6 +47,7 @@
     <Compile Include="Bridge.cs" />
     <Compile Include="BridgeTest.cs" />
     <Compile Include="Composite.cs" />
+    <Compile Include="CompositeNeuralNetworks.cs" />
     <Compile Include="CompositeTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
