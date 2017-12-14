@@ -62,7 +62,7 @@
     <Compile Include="Prototype.cs" />
     <Compile Include="PrototypeTest.cs" />
     <Compile Include="Singleton.cs" />
-    <Compile Include="SingletonTester.cs" />
+    <Compile Include="SingletonTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
