@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionCode.DesignPatterns.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionCode.DesignPatterns.Structural", "MissionCode.DesignPatterns.Structural\MissionCode.DesignPatterns.Structural.csproj", "{7EAC5B33-1F5B-4017-B58A-F004498CDA88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MissionCode.DesignPatterns.Behavioral", "MissionCode.DesignPatterns.Behavioral\MissionCode.DesignPatterns.Behavioral.csproj", "{9CD0FCB4-3CD8-483C-8655-4C785FD75ACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7EAC5B33-1F5B-4017-B58A-F004498CDA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EAC5B33-1F5B-4017-B58A-F004498CDA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EAC5B33-1F5B-4017-B58A-F004498CDA88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD0FCB4-3CD8-483C-8655-4C785FD75ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD0FCB4-3CD8-483C-8655-4C785FD75ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD0FCB4-3CD8-483C-8655-4C785FD75ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD0FCB4-3CD8-483C-8655-4C785FD75ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
