@@ -49,6 +49,7 @@
     <Compile Include="Composite.cs" />
     <Compile Include="CompositeNeuralNetworks.cs" />
     <Compile Include="CompositeTest.cs" />
+    <Compile Include="Decorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
