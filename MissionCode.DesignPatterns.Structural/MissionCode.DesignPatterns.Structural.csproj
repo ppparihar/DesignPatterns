@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter.cs" />
     <Compile Include="Bridge.cs" />
     <Compile Include="BridgeTest.cs" />
     <Compile Include="Composite.cs" />
