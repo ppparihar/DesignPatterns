@@ -54,14 +54,11 @@
     <Compile Include="CompositeNeuralNetworks.cs" />
     <Compile Include="CompositeTest.cs" />
     <Compile Include="Decorator.cs" />
-    <Compile Include="Observer.cs" />
-    <Compile Include="ObserverTest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
